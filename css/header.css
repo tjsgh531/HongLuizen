@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Song+Myung&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display+SC:wght@700&family=Song+Myung&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Do+Hyeon&family=Playfair+Display+SC:wght@700&family=Song+Myung&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Do+Hyeon&family=Fjalla+One&family=Playfair+Display+SC:wght@700&family=Song+Myung&display=swap');
+html,body{
+    overflow: hidden;
+}
+header{
+    padding: 20px;
+
+    display: flex;
+    flex-direction: row;
+}
+
+.main_logo{
+    display: flex;
+    flex-direction: row;
+}
+.main_logo>img{
+    position: relative;
+    width: 42px;
+    height: 42px;
+}
+.logo{
+    font-family: 'Song Myung', serif;
+    font-size: 18px;
+    line-height: 12px;
+    text-align: center;
+    letter-spacing: 5px;
+    color: rgb(56, 17, 17);
+    font-weight: 700;
+    white-space: nowrap;
+
+    position: relative;
+    top: 10px;
+    
+}
+.logo #logo_second{
+    font-family: 'Playfair Display SC', serif;
+    font-size: 8px;
+    text-align: center;
+    letter-spacing: 0;
+}
+
+/* 메뉴 */
+.menu{
+    width: 100vw;
+    position: relative;
+    left: 68px;
+    
+}
+.menu ul{
+    position: relative;
+    top: 10px;
+
+    overflow: hidden;
+}
+.menu ul li{
+    float: left;
+}
+.menu ul li a{
+    padding: 10px;
+
+    font-family: 'Do Hyeon', sans-serif;
+    font-size: 18px;
+    letter-spacing: 1px;
+    font-weight: 100;
+    text-align: left;
+    color: rgb(56, 17, 17);
+
+    transition: 0.5s all ease-in-out;
+}
+.menu ul li a:hover{
+    color: rgb(245, 35, 52);
+}
+
+/* 서브메뉴 */
+.sub_menu{
+    flex-basis: 800px;
+    display: flex;
+    flex-direction: row;
+
+}
+.sign_in button{
+    
+    font-size: 18px;
+    margin: 10px 0;
+    padding: 0px 12px;
+    
+    font-family: 'Do Hyeon', sans-serif;
+    color: rgb(56, 17, 17);
+    
+    cursor: pointer;
+}
+
+.sign_in button:nth-child(1){
+
+    border-right: 2.5px solid rgb(56, 17, 17);;
+}
+.switch{
+    position: relative;
+    top: -5px; left: 10px;
+
+    width: 180px;
+    height: 42px;
+    border: solid rgb(245, 35, 52) 3px;
+    border-radius: 42px;
+    color: rgb(245, 35, 52);
+    font-weight: 900;
+
+    overflow: hidden;
+}
+.switch .left_switch{
+    position: absolute;
+
+    left: 10px; top: 12px;
+}
+.switch .right_switch{
+    position: absolute;
+
+    right: 18px; top: 12px;
+
+}
+.select_bar{
+    position: absolute;
+    left: 0;
+    width: 100px;
+    height: 42px;
+    background:  rgb(245, 35, 52);
+
+    border-radius: 42px;
+}
+.other{
+    position: absolute;
+    right: 24px;
+
+    font-size: 42px;
+    color: rgb(245, 35, 52);
+}
